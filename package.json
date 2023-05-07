@@ -1,0 +1,9 @@
+{
+  "name": "epicurean",
+  "private": true,
+  "license": "ISC",
+  "author": "Evan Fleet",
+  "workspaces": [
+    "packages/*"
+  ]
+}
