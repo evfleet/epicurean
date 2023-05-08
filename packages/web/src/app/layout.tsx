@@ -1,4 +1,5 @@
 import "./globals.css";
+import TopBar from "@/components/TopBar/TopBar";
 
 export const metadata = {
 	title: "Create Next App",
@@ -12,7 +13,10 @@ const Layout = ({
 }) => {
 	return (
 		<html lang="en">
-			<body>{children}</body>
+			<body>
+				<TopBar />
+				{children}
+			</body>
 		</html>
 	);
 };
