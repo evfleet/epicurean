@@ -1,7 +1,8 @@
 {
-  "name": "web",
+  "name": "@epicurean/web",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Evan Fleet",
   "scripts": {
     "dev": "next dev -p 8080",
     "build": "next build",
@@ -9,15 +10,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.17.1",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
     "@types/node": "20.1.0",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
-    "next": "13.4.1",
     "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   }
