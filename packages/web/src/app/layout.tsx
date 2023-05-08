@@ -1,5 +1,3 @@
-import { ClerkProvider } from "@clerk/nextjs";
-
 import "./globals.css";
 
 export const metadata = {
@@ -13,11 +11,9 @@ const Layout = ({
 	children: React.ReactNode;
 }) => {
 	return (
-		<ClerkProvider>
-			<html lang="en">
-				<body>{children}</body>
-			</html>
-		</ClerkProvider>
+		<html lang="en">
+			<body>{children}</body>
+		</html>
 	);
 };
 
